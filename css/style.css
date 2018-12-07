@@ -2465,6 +2465,7 @@ body {
 
 .start {
   padding-top: 120px;
+  padding-bottom: 80px;
 }
 
 .start__header {
@@ -2479,7 +2480,136 @@ body {
   margin-top: 30px;
   color: #959595;
   font-size: 14px;
-  font-weight: 400;
   line-height: 24px;
+  font-weight: 400;
+}
+
+.box {
+  min-width: 360px;
+  min-height: 278px;
+  box-sizing: border-box;
+  padding: 50px 40px;
+  color: #fff;
+}
+
+.box__header {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.box__text {
+  margin: 0;
+  margin-top: 24px;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.box__link {
+  margin: 0;
+  margin-top: 40px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.box__link:hover {
+  text-decoration: underline;
+}
+
+.box__link:hover .fa-arrow-right {
+  transform: translateX(5px);
+}
+
+.box--wide {
+  -ms-flex-positive: 2;
+      flex-grow: 2;
+}
+
+.box--wide > .box__text {
+  max-width: 320px;
+}
+
+.box--pink {
+  background-color: #f5989d;
+}
+
+.box--blue {
+  background-color: #615f7d;
+}
+
+.box--violet {
+  background-color: #bd8cbf;
+}
+
+.box--yellow {
+  background-color: #ffc400;
+}
+
+.box--green {
+  background-color: #82ca9c;
+}
+
+.box--photo1, .box--photo2, .box--photo3 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.box--photo1 {
+  background-image: url(../images/box_photo1.png);
+}
+
+.box--photo2 {
+  background-image: url(../images/box_photo2.png);
+}
+
+.box--photo3 {
+  background-image: url(../images/box_photo3.png);
+}
+
+.fa-arrow-right {
+  padding-left: 10px;
+  font-size: 14px/24px;
+  transition: 0.2s;
+}
+
+/* TO DO - ordery podczas zmniejszania do 1600,1200,800 */
+.details {
+  padding-top: 87px;
+  padding-bottom: 160px;
+}
+
+.details__title {
+  margin: 0;
+  color: #222626;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.details__item {
+  text-align: justify;
+}
+
+.details__header {
+  margin: 0;
+  margin-top: 68px;
+  color: #67676d;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.details__text {
+  margin: 0;
+  margin-top: 28px;
+  color: #959595;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
 }
 /*# sourceMappingURL=style.css.map */
