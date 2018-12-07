@@ -2460,6 +2460,26 @@ body {
 .header__iphone img {
   width: 100%;
   position: absolute;
-  bottom: -190px;
+  bottom: -170px;
+}
+
+.start {
+  padding-top: 120px;
+}
+
+.start__header {
+  margin: 0;
+  color: #222626;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.start__text {
+  margin: 0;
+  margin-top: 30px;
+  color: #959595;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
 }
 /*# sourceMappingURL=style.css.map */
