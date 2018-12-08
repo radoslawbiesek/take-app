@@ -149,6 +149,10 @@ body {
     box-sizing: border-box;
     padding: 50px 40px;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
     &__header {
         margin: 0;
         font-size: 30px;
@@ -156,14 +160,11 @@ body {
     }
     &__text {
         margin: 0;
-        margin-top: 24px;
         max-width: 320px;
         font-size: 13px;
         line-height: 24px;
     }
     &__link {
-        margin: 0;
-        margin-top: 40px;
         @include arrow-link(14px, 24px, #fff);
     }
     &--pink {

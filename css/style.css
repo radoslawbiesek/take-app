@@ -2488,6 +2488,14 @@ body {
   box-sizing: border-box;
   padding: 50px 40px;
   color: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
 }
 
 .box__header {
@@ -2498,15 +2506,12 @@ body {
 
 .box__text {
   margin: 0;
-  margin-top: 24px;
   max-width: 320px;
   font-size: 13px;
   line-height: 24px;
 }
 
 .box__link {
-  margin: 0;
-  margin-top: 40px;
   text-decoration: none;
   font-size: 14px;
   line-height: 24px;
