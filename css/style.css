@@ -2522,6 +2522,13 @@ body {
   transform: translateX(5px);
 }
 
+.box__link .fa-arrow-right {
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 24px;
+  transition: 0.2s;
+}
+
 .box--pink {
   background-color: #f5989d;
 }
@@ -2561,12 +2568,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.fa-arrow-right {
-  padding-left: 10px;
-  font-size: 14px/24px;
-  transition: 0.2s;
 }
 
 .details {
@@ -2642,6 +2643,13 @@ body {
 
 .car__link:hover .fa-arrow-right {
   transform: translateX(5px);
+}
+
+.car__link .fa-arrow-right {
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 24px;
+  transition: 0.2s;
 }
 
 .reasons {

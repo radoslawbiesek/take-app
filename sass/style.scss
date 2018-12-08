@@ -47,6 +47,12 @@
             transform: translateX(5px);
         }
     }
+    .fa-arrow-right {
+        padding-left: 10px;
+        font-size: $font-size;
+        line-height: $line-height;
+        transition: 0.2s;
+    }
 }
 
 // Colors 
@@ -186,11 +192,6 @@ body {
     &--photo3 {
         @include background-img-full-width(url(../images/box_photo3.png));
     }
-}
-.fa-arrow-right {
-    padding-left: 10px;
-    font-size: 14px/24px;
-    transition: 0.2s;
 }
 .details {
     padding-top: 87px;
