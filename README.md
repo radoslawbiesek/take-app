@@ -13,6 +13,6 @@ Click [here.](https://radoslawbiesek.github.io/take-app/)
 PSD template created by Blaz Robar can be found [here.](http://blazrobar.com/free-psd-website-templates/take-a-free-mobile-app-landing-page-psd-template/)
 
 ## Contact
-* [LinkedIn](www.linkedin.com/in/radoslawbiesek)
-* [Gmail](radoslaw.biesek@gmail.com)
+* [LinkedIn](https://www.linkedin.com/in/radoslawbiesek)
+* [Gmail](mailto:radoslaw.biesek@gmail.com)
 
