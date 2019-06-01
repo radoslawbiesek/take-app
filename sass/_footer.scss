@@ -1,0 +1,74 @@
+.footer {
+    $footer-white: #fff;
+    background-color: #192431;
+    margin: 0 auto;
+    color: $footer-white;
+    box-sizing: border-box;
+    padding: 100px 0;
+    &__header {
+        margin: 0;
+        margin-top: 30px;
+        font-size: 13px;
+        font-weight: 600;
+        &--nav {
+            margin-top: 28px;
+        }
+    }
+    &__text {
+        margin: 0;
+        margin-top: 29px;
+        font-size: 13px;
+        line-height: 24px;
+    }
+    &__form {
+        margin: 0;
+        margin-top: 27px;
+        padding: 0;
+        padding: 0 10px 0 10px;
+        max-width: 400px;
+        height: 58px;
+        background-color: $footer-white;
+        box-sizing: border-box;
+        border: none;
+        border-radius: 2px 0 0 2px;
+        font-family: 'Open Sans';
+        font-size: 20px;
+        &:focus {
+            outline-color: $green;
+        }
+        &-info {
+            margin-top: 18px;
+            max-width: 340px;
+            color: #57697f;
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+    &__button {
+        margin: 0;
+        padding: 0;
+        width: 70px;
+        height: 58px;
+        border-radius: 0 2px 2px 0;
+        font-size: 18px;
+        text-align: center;
+        line-height: 58px;      
+        @include btn(#fff, $green)
+    }
+    &__menu {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        margin-top: 29px;
+    }
+    &__link {
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 24px;
+        color: $footer-white;
+        &:hover {
+            text-decoration: underline; 
+        }
+    }
+}

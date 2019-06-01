@@ -1,0 +1,50 @@
+.box {
+    min-height: 278px;
+    box-sizing: border-box;
+    padding: 50px 40px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+    &__header {
+        margin: 0;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    &__text {
+        margin: 0;
+        max-width: 320px;
+        font-size: 13px;
+        line-height: 24px;
+    }
+    &__link {
+        @include arrow-link(14px, 24px, #fff);
+    }
+    &--pink {
+        background-color: #f5989d;
+    }
+    &--blue {
+        background-color: #615f7d;     
+    }
+    &--violet {
+        background-color: $violet;
+    }
+    &--green {
+        background-color: $green;
+    }
+    &--photo1,
+    &--photo2,
+    &--photo3 {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    &--photo1 {
+        @include background-img-full-width(url(../images/box_photo1.png));
+    }
+    &--photo2 {
+        @include background-img-full-width(url(../images/box_photo2.png));
+    }
+    &--photo3 {
+        @include background-img-full-width(url(../images/box_photo3.png));
+    }
+}

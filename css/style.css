@@ -2383,17 +2383,8 @@ html {
 }
 
 /* IMPORT FONTS */
-body {
-  margin: 0;
-  background-color: #fff;
-  font-family: 'Open Sans', sans-serif;
-  box-sizing: border-box;
-}
-
-.container-fluid {
-  max-width: 1920px;
-}
-
+/* IMPORT VARIABLES AND MIXINS */
+/* IMPORT BLOCKS */
 .logo {
   position: relative;
   top: 66px;
@@ -2575,39 +2566,6 @@ body {
   background-size: cover;
 }
 
-.details {
-  padding-top: 87px;
-  padding-bottom: 160px;
-}
-
-.details__title {
-  margin: 0;
-  color: #222626;
-  font-size: 35px;
-  font-weight: 300;
-}
-
-.details__item {
-  text-align: justify;
-}
-
-.details__header {
-  margin: 0;
-  margin-top: 68px;
-  color: #67676d;
-  font-size: 13px;
-  line-height: 24px;
-  font-weight: 700;
-}
-
-.details__text {
-  margin: 0;
-  margin-top: 28px;
-  color: #959595;
-  font-size: 14px;
-  line-height: 24px;
-}
-
 .car {
   background-image: url(../images/car.jpg);
   background-repeat: no-repeat;
@@ -2655,6 +2613,39 @@ body {
   font-size: 14px;
   line-height: 24px;
   transition: 0.2s;
+}
+
+.details {
+  padding-top: 87px;
+  padding-bottom: 160px;
+}
+
+.details__title {
+  margin: 0;
+  color: #222626;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.details__item {
+  text-align: justify;
+}
+
+.details__header {
+  margin: 0;
+  margin-top: 68px;
+  color: #67676d;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.details__text {
+  margin: 0;
+  margin-top: 28px;
+  color: #959595;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .reasons {
@@ -2882,5 +2873,16 @@ body {
 
 .footer__link:hover {
   text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  max-width: 1920px;
 }
 /*# sourceMappingURL=style.css.map */

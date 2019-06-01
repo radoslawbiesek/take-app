@@ -1,0 +1,32 @@
+.logo {
+    position: relative;
+    top: 66px;
+    height: 41px;
+    width: 41px;
+    &,
+    &::before {
+        border: 3px solid #fff;
+        border-radius: 50%;
+        background-color: transparent;
+        box-sizing: border-box;
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        height: 15px;
+        width: 15px;
+    }
+    &::after {
+        content: "take";
+        position: absolute;
+        left: 48px;
+        top: 4px;
+        font-family: 'Merriweather', serif;
+        font-weight: 900;
+        font-style: italic; 
+        font-size: 21px;
+        letter-spacing: -0.24px;
+    }
+}

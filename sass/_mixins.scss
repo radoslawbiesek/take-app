@@ -1,0 +1,44 @@
+@mixin background-img-full-width($url) {
+    background-image: $url;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@mixin btn($color1, $color2) {
+    color: $color1;
+    background-color: $color2;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.2s;
+    border: 2px solid $color2;
+    &:focus {
+        outline: none;
+    }
+    &:hover {
+        box-sizing: border-box;
+        background-color: $color1;
+        color: $color2;
+        border: 2px solid $color2;
+    }
+}
+
+@mixin arrow-link($font-size, $line-height, $color) {
+    text-decoration: none;
+    font-size: $font-size;
+    line-height: $line-height;
+    font-weight: 700;
+    color: $color;
+    &:hover {
+        text-decoration: underline;
+        & .fa-arrow-right {
+            transform: translateX(5px);
+        }
+    }
+    .fa-arrow-right {
+        padding-left: 10px;
+        font-size: $font-size;
+        line-height: $line-height;
+        transition: 0.2s;
+    }
+}

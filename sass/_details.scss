@@ -1,0 +1,28 @@
+.details {
+    padding-top: 87px;
+    padding-bottom: 160px;
+    &__title {
+        margin: 0;
+        color: #222626;
+        font-size: 35px;
+        font-weight: 300;
+    }
+    &__item {
+        text-align: justify;
+    }
+    &__header {
+        margin: 0;
+        margin-top: 68px;
+        color: #67676d;
+        font-size: 13px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+    &__text {
+        margin: 0;
+        margin-top: 28px;
+        color: $grey-text;
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

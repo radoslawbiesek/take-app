@@ -1,0 +1,26 @@
+.header {
+    @include background-img-full-width(url(../images/header.jpg));
+    height: 100vh;
+    color: #fff;
+    &__title {
+        margin: 0;
+        margin-top: 40vh;
+        font-size: 60px;
+        font-weight: 300;
+    }
+    &__text {
+        margin: 0;
+        margin-top: 21px;
+        max-width: 450px;
+        font-size: 13px;
+        line-height: 24px;
+    }
+    &__iphone {
+        height: 100vh;
+        & img {
+            width: 100%;
+            position: absolute;
+            bottom: -170px;
+        }
+    }
+}
